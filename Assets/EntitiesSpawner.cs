@@ -12,7 +12,7 @@ public class EntitiesSpawner : MonoBehaviour
     [SerializeField] [RuntimeReadOnly] private Mesh mesh;
     [SerializeField] [RuntimeReadOnly] private Material material;
     [SerializeField] [RuntimeReadOnly] private float boids;
-    [SerializeField] [RuntimeReadOnly] private Vector3 startingVelocity;
+    [SerializeField] [RuntimeReadOnly] private float3 startingVelocity;
     [SerializeField] [RuntimeReadOnly] private int minSpawnBound;
     [SerializeField] [RuntimeReadOnly] private int maxSpawnBound;
 

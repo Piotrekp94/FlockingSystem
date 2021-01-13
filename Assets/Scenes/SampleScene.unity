@@ -248,7 +248,10 @@ MonoBehaviour:
   mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: b35da77b83e07e640b5008bb6b98c9bd, type: 2}
   boids: 100
-  startingVelocity: {x: 1, y: 1, z: 1}
+  startingVelocity:
+    x: 0.01
+    y: 0.01
+    z: 0.01
   minSpawnBound: 0
   maxSpawnBound: 100
   range: 100
